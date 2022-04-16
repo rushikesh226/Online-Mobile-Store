@@ -1,0 +1,30 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    margin:auto;
+    width: 80%;
+}
+h1{
+    text-align: center;
+    color: teal;
+}
+#container>div{
+    margin: auto;
+}
+#container>div>button{
+    margin: 20%;
+    background-color: #FF9F00;
+    color: white;
+    width: 90%;
+    height: 50px;
+    justify-content: center;
+}
+#container>div>#rating{
+    color: white;
+    background-color: #388E3C;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+}
